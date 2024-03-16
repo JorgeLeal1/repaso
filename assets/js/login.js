@@ -1,20 +1,14 @@
-/* Jquery*/
-
-
-
+// Jquery 
 function verValorInput() {
     const valorEscrito = $("#inputUsuario").val();
-    alert($("$inputUsuario").val());
+    alert($("#inputUsuario").val());
 
     $("#inputUsuario").val(valorEscrito + " Agregado desde java");
 }
 
 
-
-
-
 /*
-Javascript
+//Javascript
 
 const labelUsuario = document.getElementById("labelUsuario");
 const btnIngresar = document.getElementById("btnIngresar");
@@ -31,7 +25,7 @@ btnIngresar.addEventListener("click", ()=>{
 });
 
 function verValorInput(){
-    const inputUsuario = document.getElementById("inputusuario");
+    const inputUsuario = document.getElementById("inputUsuario");
     alert(inputUsuario.value)
 }
 
